@@ -1,0 +1,13 @@
+{
+  "name": "hackgame",
+  "version": "0.1.0",
+  "type": "module",
+  "compilerOptions": {
+    "resolveJsonModule": true
+  },
+  "dependencies": {
+    "@harmony-js/core": "^0.1.55",
+    "graphviz": "^0.0.9",
+    "tslib": "^2.0.3"
+  }
+}
