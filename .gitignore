@@ -5,3 +5,6 @@ blocks.tar.gz
 *.sh
 yarn.lock
 yarn-error.log
+*.dot
+*.svg
+*.png

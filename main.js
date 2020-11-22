@@ -7,7 +7,7 @@ const Json = JSON.parse;
 const JsonFile = (name)=>Json(File(name));
 
 function getBlock(n) {
-    const filename = `/tmp/blocks/${n}`;
+    const filename = `./blocks/${n}`;
     return Fs.existsSync(filename)?JsonFile(filename):null;
 }
 
