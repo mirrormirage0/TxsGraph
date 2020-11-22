@@ -43,6 +43,6 @@ export function toFile(type='dot', use='dot', file=`blocks_${use}.${type}`) {
     //G.setGraphVizPath( "/tmp/" );
     //G.output( "png", "blocks.png" );
     if(type == 'dot')
-        Fs.writeFileSync(file, G.to_dot());
+        Fs.writeFileSync(file, G.to_dot()); // run `dot -K dot -T svg -O blocks_dot.dot`
     G.output({type, use}, file);
 }
